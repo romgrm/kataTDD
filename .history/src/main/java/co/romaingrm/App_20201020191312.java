@@ -22,22 +22,9 @@ public class App {
         } else if (year % 4 == 0 && year % 100 != 0) {
             leap = true;
         }
-       
+        System.out.println(leapYears(year));
         return leap;
 
-    }
-
-
-
-    public static int fooBarQix(int number){
-        
-        int newNumber = 0;
-        
-        if(number == 1){
-            newNumber = number;
-        }    
-        
-        return newNumber; 
     }
 
     public static void main(String[] args) {

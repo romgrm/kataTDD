@@ -30,13 +30,11 @@ public class App {
 
 
     public static int fooBarQix(int number){
-        
-        int newNumber = 0;
-        
+        int newNumber = 0; 
         if(number == 1){
             newNumber = number;
         }    
-        
+        System.out.println(newNumber);
         return newNumber; 
     }
 

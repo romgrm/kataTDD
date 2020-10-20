@@ -27,19 +27,6 @@ public class App {
 
     }
 
-
-
-    public static int fooBarQix(int number){
-        
-        int newNumber = 0;
-        
-        if(number == 1){
-            newNumber = number;
-        }    
-        
-        return newNumber; 
-    }
-
     public static void main(String[] args) {
         System.out.println();
     }

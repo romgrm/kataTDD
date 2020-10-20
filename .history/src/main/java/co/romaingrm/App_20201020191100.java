@@ -14,7 +14,7 @@ public class App {
     public static boolean leapYears(int year) { // le int year sera notre paramètre ou les années seront intégrées 
         
         boolean leap = false; // on créer une boolean avec comme valeur par défaut "false" (obligatoire de définir la variable)
-        
+       
 
         if (year % 400 == 0) {
             leap = true;
@@ -22,22 +22,9 @@ public class App {
         } else if (year % 4 == 0 && year % 100 != 0) {
             leap = true;
         }
-       
+
         return leap;
 
-    }
-
-
-
-    public static int fooBarQix(int number){
-        
-        int newNumber = 0;
-        
-        if(number == 1){
-            newNumber = number;
-        }    
-        
-        return newNumber; 
     }
 
     public static void main(String[] args) {

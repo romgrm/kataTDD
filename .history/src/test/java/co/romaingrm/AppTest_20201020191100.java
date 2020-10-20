@@ -18,10 +18,4 @@ class AppTest {
         assertEquals(false, App.leapYears(2021));
         assertEquals(false, App.leapYears(1989));
     }
-
-    @Test
-
-    public void fooBarQixTest(){
-        assertEquals(1, App.fooBarQix(1));
-    }
 }

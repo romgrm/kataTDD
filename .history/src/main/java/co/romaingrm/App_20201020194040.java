@@ -30,9 +30,8 @@ public class App {
 
 
     public static int fooBarQix(int number){
-        
         int newNumber = 0;
-        
+        System.out.println(newNumber); 
         if(number == 1){
             newNumber = number;
         }    
