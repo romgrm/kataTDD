@@ -15,6 +15,5 @@ class AppTest {
     
     public void leapYearsTest() {
         assertEquals(true, App.leapYears(2020));
-        assertEquals(false, App.leapYears(2021));
     }
 }

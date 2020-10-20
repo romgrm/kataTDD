@@ -21,7 +21,10 @@ public class App {
             
         } else if (year % 4 == 0 && year % 100 != 0) {
             leap = true;
+            System.out.println(year);
         }
+
+        
 
         return leap;
 
