@@ -40,14 +40,13 @@ public class App {
 
 
 
-
+    
 
     private static Map<Integer, String> divisors = new HashMap<>();
     static {
         divisors.put(3, "Foo");
         divisors.put(5, "Bar");
         divisors.put(7, "Qix");
-        divisors.put(55, "BarBar"); 
     }
 
     public static String fooBarQix(Integer number) {

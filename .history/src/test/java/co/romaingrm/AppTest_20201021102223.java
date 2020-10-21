@@ -22,10 +22,8 @@ class AppTest {
     @Test
 
     public void fooBarQixTest(){
-        assertEquals("Foo", App.fooBarQix(6));
-        assertEquals("BarBar", App.fooBarQix(5));
-        //assertEquals("QixQix", App.fooBarQix(77));
-        //assertEquals("BarBar", App.fooBarQix(555));
+        assertEquals(1, App.fooBarQix(1));
+        assertEquals(2, App.fooBarQix(2));
+        //assertEquals("FooFoo", App.fooBarQix(3));
     }
-    
 }

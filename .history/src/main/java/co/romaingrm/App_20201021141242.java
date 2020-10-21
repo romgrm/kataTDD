@@ -1,8 +1,5 @@
 package co.romaingrm;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Hello world!
  */
@@ -31,68 +28,51 @@ public class App {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-    private static Map<Integer, String> divisors = new HashMap<>();
-    static {
-        divisors.put(3, "Foo");
-        divisors.put(5, "Bar");
-        divisors.put(7, "Qix");
-        divisors.put(55, "BarBar"); 
-    }
-
     public static String fooBarQix(Integer number) {
 
-        String resultat = "";
+        //String divideByTrois = "FooFoo";
+        //Integer newNumber = 0;
 
-        for (Integer divisor : divisors.keySet()) {
-            if(number % divisor == 0){
-                resultat += divisors.get(divisor); 
-                ;
-            }
+        if (number % 3 == 0 && number == 3) {
+            return "FooFoo"; 
         }
 
-        if(resultat.equals("")){
-            return number.toString(); 
-        }
+        if(number%5 == 0 && number == 5){
+            return "BarBar"; 
+        } 
 
-        return resultat;   
+        if(number%7 == 0 && number == 7){
+            return "QixQix"; 
+        } 
+
+        if(number%3 == 0){
+            return "Foo"; 
+        } 
+
+        if(number%5 == 0){
+            return "Bar"; 
+        } 
+
+        if(number%7 == 0){
+            return "Qix"; 
+        } 
+
+      
+      
+      
+
+       
+       
+       
+
+
+        return number.toString();
     }
 
+    // public static String fooBarQix2(int number) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
+    // }
 
 
 

@@ -31,23 +31,11 @@ public class App {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
     private static Map<Integer, String> divisors = new HashMap<>();
     static {
         divisors.put(3, "Foo");
         divisors.put(5, "Bar");
         divisors.put(7, "Qix");
-        divisors.put(55, "BarBar"); 
     }
 
     public static String fooBarQix(Integer number) {
@@ -65,36 +53,40 @@ public class App {
             return number.toString(); 
         }
 
-        return resultat;   
+        return resultat; 
+
+        // String divideByTrois = "FooFoo";
+        // Integer newNumber = 0;
+
+        // if (number % 3 == 0 && number == 3) {
+        // return "FooFoo";
+        // }
+
+        // if(number%5 == 0 && number == 5){
+        // return "BarBar";
+        // }
+
+        // if(number%7 == 0 && number == 7){
+        // return "QixQix";
+        // }
+
+        // if(number%3 == 0){
+        // return "Foo";
+        // }
+
+        // if(number%5 == 0){
+        // return "Bar";
+        // }
+
+        // if(number%7 == 0){
+        // return "Qix";
+        // }
+        // return number.toString();
+        // }
+
+        // public static String fooBarQix2(int number) {
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public static void main(String[] args) {
         System.out.println();
