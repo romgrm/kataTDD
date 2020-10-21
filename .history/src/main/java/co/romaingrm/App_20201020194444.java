@@ -30,15 +30,13 @@ public class App {
 
 
     public static int fooBarQix(int number){
-        String newString = ""; 
+        
         int newNumber = 0;
         
-        if(number == 1 || number == 2){
+        if(number == 1 && number == 2){
             newNumber = number;
-        }else if(number == 3){  
-            newString = "FooFoo"; 
-
-        }
+        }    
+        
         return newNumber; 
     }
 

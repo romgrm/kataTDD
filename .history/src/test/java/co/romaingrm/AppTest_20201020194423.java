@@ -24,6 +24,5 @@ class AppTest {
     public void fooBarQixTest(){
         assertEquals(1, App.fooBarQix(1));
         assertEquals(2, App.fooBarQix(2));
-        assertEquals("FooFoo", App.fooBarQix(3));
     }
 }
