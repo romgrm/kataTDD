@@ -22,10 +22,22 @@ class AppTest {
     @Test
 
     public void fooBarQixTest(){
-        assertEquals("Foo", App.fooBarQix(6));
-        assertEquals("BarBar", App.fooBarQix(5));
-        //assertEquals("QixQix", App.fooBarQix(77));
-        //assertEquals("BarBar", App.fooBarQix(555));
+        assertEquals("Foo", App.fooBarQix(3));
+        assertEquals("Bar", App.fooBarQix(5));
+        assertEquals("BarBar", App.fooBarQix(25));
+        assertEquals("QixQix", App.fooBarQix(77));
+        assertEquals("", App.fooBarQix(0));
+    }
+        
+    @Test
+    public void numberInWords() {
+        assertEquals("sept", App.numberInWords(7));
+        assertEquals("douze", App.numberInWords(12));
+        assertEquals("dix-sept", App.numberInWords(17));
+        assertEquals("dix-neuf", App.numberInWords(19));
+        assertEquals("soixante-dix", App.numberInWords(70));
+        assertEquals("quatre-vingt", App.numberInWords(80));
+        assertEquals("quatre-vingt-six", App.numberInWords(86));
     }
     
 }
